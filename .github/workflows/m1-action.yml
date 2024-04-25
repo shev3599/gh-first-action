@@ -1,11 +1,11 @@
 name: My First Workflow
 on: workflow_dispatch
 jobs:
-  build:
+  my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
+      - name: Print hello
         run: echo Hello, world!
-      - name: Run a multi-line script
+      - name: Prin bye
         run: echo Good Bye!
          
