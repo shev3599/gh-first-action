@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Print hello
         run: echo Hello, world!
-      - name: Prin bye
+      - name: Print Double
+        run: |
+          echo "First output"
+          echo "Second output"
+      - name: Print bye
         run: echo Good Bye!
          
