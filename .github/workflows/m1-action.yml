@@ -1,17 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
 name: My First Workflow
-
-# Controls when the workflow will run
-on: workflow_dispatch:
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+on: workflow_dispatch
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
